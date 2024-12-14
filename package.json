@@ -1,0 +1,36 @@
+{
+  "name": "api.fabrica",
+  "version": "1.0.0",
+  "description": "API que almacenara la informacion requeria para la funcionalidad MVP del proyecto QR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NkDuarte/QR_API.git"
+  },
+  "keywords": [
+    "API",
+    "RESTFul",
+    "FIREBASE"
+  ],
+  "author": "NkDuarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NkDuarte/QR_API/issues"
+  },
+  "homepage": "https://github.com/NkDuarte/QR_API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/multer": "^1.4.12"
+  }
+}
